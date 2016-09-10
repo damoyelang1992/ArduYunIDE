@@ -20,7 +20,7 @@ class getdir:
     
     def gethexdir(self,inoname):
         hexfiledir = "/static/" + inoname + "/.build/uno/firmware.hex"
-	return hexfiledir
+        return hexfiledir
 
 class upload:
     '''
