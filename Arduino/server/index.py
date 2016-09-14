@@ -29,7 +29,7 @@ def build():
             hexdir = dir.gethexdir(inoname)
             return "Your project is building, your client plugin will automatic download \
                 it when build success!</br> Click \
-                <a href='http://ide.hiveduino.com/blockly/apps/mixly/index.html'>Here</a> \
+                <a href='hhttp://tickrobot.duapp.com/mblockly/blockly/apps/mixly/index.html'>Here</a> \
                 to comeback.</br> or you can download the hex file <a href = " + hexdir + ">here</a>"
     else:
         return "Please <b>POST</b> data to this address!"
@@ -52,7 +52,7 @@ def upload():
                 hexdir = str(dir.gethexdir(inoname))
                 return "Your project is building, your client plugin will automatic download \
                 it when build success!</br> Click \
-                <a href='http://ide.hiveduino.com/blockly/apps/mixly/index.html'>Here</a> \
+                <a href='http://tickrobot.duapp.com/mblockly/blockly/apps/mixly/index.html'>Here</a> \
                 to comeback.</br> or you can download the hex file <a href = " + hexdir + ">here</a>"
             else:
                 f.save(os.path.join(UPLOAD_FOLDER, filename))

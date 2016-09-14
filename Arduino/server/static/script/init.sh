@@ -11,5 +11,5 @@ mkdir ./static/$1
 cd ./static/$1
 
 ino init
-#ino build
+
 exit 0
