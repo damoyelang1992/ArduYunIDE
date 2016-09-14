@@ -29,7 +29,7 @@ class runscript:
         self.process("./static/script/init.sh", param1, waitFlag = True)
         
     def buildproject(self,param1):
-        self.process("./static/script/build.sh", param1, waitFlag = False)
+        self.process("./static/script/build.sh", param1, waitFlag = True)
         
     def clearproject(self,param1):
-        self.process("./static/script/clear.sh", param1, waitFlag = False)
+        self.process("./static/script/clear.sh", param1, waitFlag = True)
